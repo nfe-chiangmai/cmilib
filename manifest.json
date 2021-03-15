@@ -1,0 +1,17 @@
+{
+  "name": "Princess Library Project",
+  "short_name": "PLP",
+  "theme_color": "#6c0070",
+  "background_color": "#cccccc",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/princessLibraryProject/",
+  "start_url": "/princessLibraryProject/",
+  "icons": [
+    {
+      "src": "/princessLibraryProject/assets/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
