@@ -1,0 +1,15 @@
+- name: Biography
+  link: pages/biography.html
+  dropdown:
+    - name: Education
+      link: pages/education.html
+    - name: Hobbies
+      link: pages/hobbies.html
+    - name: Language
+      link: pages/language.html
+- name: Royal Duties
+  link: pages/royalDuties.html
+- name: Royal Initiatives
+  link: pages/royalInitiatives.html
+- name: Writings
+  link: pages/writings.html
