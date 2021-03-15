@@ -1,6 +1,6 @@
 # Princess Library Project
 
-## Dev Set up
+## Developer Set up
 Requires Ruby
 ```
 git clone git@github.com:nh758/princessLibraryProject.git princessLibraryProject
