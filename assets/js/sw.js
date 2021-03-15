@@ -25,6 +25,13 @@ const assets = [
   "/princessLibraryProject/pages/offline.html",
 ];
 
+
+/*
+Essentially, this code instructs the browser to wait (using the waitUntil() call) for our caching.
+By using the cache API, specifically the addAll(), our array of assets can be effortlessly added 
+to the cache, ready to be served by the service workers.
+*/
+
 self.addEventListener("install", event => {
     console.log("installing...");
     event.waitUntil(
@@ -36,6 +43,14 @@ self.addEventListener("install", event => {
             .catch(err => console.log(err))
     );
 });
+
+
+/*
+First, the app attempts to get resources online and response with the cached resources if that fetch fails (using the respondWith() ).
+Within the respondWith() , we call fetch(event.request) to try to fetch resources from the network, and since fetch is Promise based, 
+the Promise will reject if it fails to connect to the network and in turn, trigger the catch() statement.
+In the catch() statement is where you’d want to call your cached resources.
+*/
 
 self.addEventListener("fetch", event => {
     if (event.request.url === "https://nh758.github.io/princessLibraryProject/") {
