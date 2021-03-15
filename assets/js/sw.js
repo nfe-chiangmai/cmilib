@@ -13,7 +13,6 @@ const assets = [
   "/princessLibraryProject/assets/js/app.js,
   "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css",
   "https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css",
-  "",
   "/princessLibraryProject/assets/css/app.css",
   "/princessLibraryProject/",
   "/princessLibraryProject/pages/biography.html",
@@ -22,7 +21,8 @@ const assets = [
   "/princessLibraryProject/pages/language.html",
   "/princessLibraryProject/pages/royalDuties.html",
   "/princessLibraryProject/pages/royalInitiatives.html",
-  "/princessLibraryProject/pages/writings.html"
+  "/princessLibraryProject/pages/writings.html",
+  "/princessLibraryProject/pages/offline.html",
 ];
 
 self.addEventListener("install", event => {
@@ -42,7 +42,7 @@ self.addEventListener("fetch", event => {
         // or whatever your app's URL is
         event.respondWith(
             fetch(event.request).catch(err =>
-                self.cache.open(cache_name).then(cache => cache.match("/offline.html"))
+                self.cache.open(cache_name).then(cache => cache.match("/princessLibraryProject/pages/offline.html"))
             )
         );
     } else {
