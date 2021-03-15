@@ -14,6 +14,7 @@ const assets = [
   "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css",
   "https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css",
   "/princessLibraryProject/assets/css/app.css",
+  "/princessLibraryProject/assets/images/icons-512.png",
   "/princessLibraryProject/",
   "/princessLibraryProject/pages/biography.html",
   "/princessLibraryProject/pages/education.html",
