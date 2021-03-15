@@ -1,0 +1,6 @@
+plugins:
+  - jekyll-relative-links
+  - kramdown-parser-gfm
+relative_links:
+  enabled: true
+remote_theme: chrisrhymes/bulma-clean-theme
