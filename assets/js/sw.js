@@ -10,7 +10,7 @@ let cache_name = "princessLibraryProject"; // The string used to identify our ca
 */
 const assets = [
   "https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js",
-  "/princessLibraryProject/assets/js/app.js,
+  "/princessLibraryProject/assets/js/app.js",
   "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css",
   "https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css",
   "/princessLibraryProject/assets/css/app.css",
