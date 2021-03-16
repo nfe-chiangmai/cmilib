@@ -1,0 +1,4 @@
+iframe.video {
+  width: 100%;
+  height: calc((100vw - 40px) / (16/9));
+}
