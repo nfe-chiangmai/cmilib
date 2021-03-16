@@ -1,3 +1,3 @@
 ---
-title: Royal Duties
+title: พระราชกิจ
 ---
