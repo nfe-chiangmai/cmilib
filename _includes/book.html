@@ -1,0 +1,17 @@
+{% assign book = include.book %}
+<div class="card">
+  <div class="card-image has-text-centered">
+    <img src="{{ site.baseurl }}{{ book.path }}" alt="">
+  </div>
+  <div class="card-content">
+    <div class="content">
+      <p class='title'> {{ book.title }} </p>
+      <h2>เนื้อหาโดยสังเขป</h2>
+      <p>{{ book.detail }}</p>
+      {% if book.extra %}
+      <h2>ข้อมูลเพิ่มเติม</h2>
+      {{ book.extra }}
+      {% endif %}
+    </div>
+  </div>
+</div>
