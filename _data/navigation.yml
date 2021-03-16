@@ -10,20 +10,20 @@
 - name: พระราชกิจ
   link: pages/royalDuties.html
   dropdown:
-    - name: พระราชกรณียกิจที่ทรงสืบสานฯ
+    - name: ที่ทรงสืบสานฯ
       link: pages/royalDutiesAssigned.html
-    - name: พระราชกรณียกิจในด้านการพัฒนา
+    - name: ด้านการพัฒนา
       link: pages/royalDutiesDevelopment.html
-    - name: พระราชกรณียกิจในด้านการศึกษา
+    - name: ด้านการศึกษา
       link: pages/royalDutiesEducation.html
-    - name: พระราชกิจเสด็จเยือนต่างประเทศ
+    - name: เสด็จเยือนต่างประเทศ
       link: pages/royalDutiesForeignVisits.html
 - name: โครงการตามพระราชดำริ
   link: pages/royalInitiatives.html
 - name: งานเขียน
   link: pages/writings.html
   dropdown:
-    - name: Songs
+    - name: เพลง
       link: pages/songs.html
-    - name: Books
+    - name: งานเขียน
       link: pages/books.html
