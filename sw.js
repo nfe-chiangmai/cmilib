@@ -13,6 +13,8 @@ const assets = [
   "/princessLibraryProject/assets/js/app.js",
   "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css",
   "https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css",
+  "https://fonts.googleapis.com/css?family=Montserrat",
+  "https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
   "/princessLibraryProject/assets/css/app.css",
   "/princessLibraryProject/assets/images/icons-512.png",
   "/princessLibraryProject/",
@@ -22,8 +24,7 @@ const assets = [
   "/princessLibraryProject/pages/language.html",
   "/princessLibraryProject/pages/royalDuties.html",
   "/princessLibraryProject/pages/royalInitiatives.html",
-  "/princessLibraryProject/pages/writings.html",
-  "/princessLibraryProject/pages/offline.html",
+  "/princessLibraryProject/pages/writings.html"
 ];
 
 
@@ -46,26 +47,36 @@ self.addEventListener("install", event => {
 });
 
 
-/*
-First, the app attempts to get resources online and response with the cached resources if that fetch fails (using the respondWith() ).
-Within the respondWith() , we call fetch(event.request) to try to fetch resources from the network, and since fetch is Promise based, 
-the Promise will reject if it fails to connect to the network and in turn, trigger the catch() statement.
-In the catch() statement is where you’d want to call your cached resources.
-*/
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        // Cache hit - return response
+        if (response) {
+          return response;
+        }
 
-self.addEventListener("fetch", event => {
-    if (event.request.url === "https://nh758.github.io/princessLibraryProject/") {
-        // or whatever your app's URL is
-        event.respondWith(
-            fetch(event.request).catch(err =>
-                self.cache.open(cache_name).then(cache => cache.match("/princessLibraryProject/pages/offline.html"))
-            )
+        return fetch(event.request).then(
+          function(response) {
+            // Check if we received a valid response
+            if(!response || response.status !== 200 || response.type !== 'basic') {
+              return response;
+            }
+
+            // IMPORTANT: Clone the response. A response is a stream
+            // and because we want the browser to consume the response
+            // as well as the cache consuming the response, we need
+            // to clone it so we have two streams.
+            var responseToCache = response.clone();
+
+            caches.open(cache_name)
+              .then(function(cache) {
+                cache.put(event.request, responseToCache);
+              });
+
+            return response;
+          }
         );
-    } else {
-        event.respondWith(
-            fetch(event.request).catch(err =>
-                caches.match(event.request).then(response => response)
-            )
-        );
-    }
+      })
+    );
 });
