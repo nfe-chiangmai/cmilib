@@ -25,3 +25,5 @@
   dropdown:
     - name: Songs
       link: pages/songs.html
+    - name: Books
+      link: pages/books.html
