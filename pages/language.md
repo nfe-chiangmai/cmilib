@@ -1,3 +1,3 @@
 ---
-title: Languages
+title: ภาษา
 ---

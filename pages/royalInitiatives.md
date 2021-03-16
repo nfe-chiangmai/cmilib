@@ -1,3 +1,3 @@
 ---
-title: Royal Initiatives
+title: โครงการตามพระราชดำริ
 ---
