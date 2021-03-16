@@ -15,7 +15,7 @@ title: งานอดิเรก
 <br>
 <br>
 
-![RC02](http://sirindhorn.net/hrh_new/images/RC02.jpg)
+![RC02](https://mpics.mgronline.com/pics/Images/558000012605401.JPEG)
 
 <br>
 <br>
