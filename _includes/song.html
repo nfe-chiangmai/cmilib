@@ -1,0 +1,14 @@
+{% assign song = include.song %}
+<div class="card">
+  <div class="card-image has-text-centered">
+    <iframe src="{{ song.url }}" class="video" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="card-content">
+    <div class="content">
+      <p class='title'> {{ song.title }} </p>
+      <p><b>คำร้อง:</b> {{ song.lyric }}</p>
+      <p><b>ทำนอง:</b> {{ song.melody }} </p>
+      <p><b>รายละเอียด:</b> {{ song.detail }} </p>
+    </div>
+  </div>
+</div>
