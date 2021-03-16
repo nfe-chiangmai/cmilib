@@ -27,7 +27,7 @@ title: ประวัติ
 <br>
 <br>
 
-![thumb](ccfthai.or.th/uploads/content/2018/06/130/thumb.jpg)
+![thumb](https://www.ccfthai.or.th/uploads/content/2018/06/130/thumb.jpg)
 <br>
 <br>
 
