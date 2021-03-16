@@ -62,6 +62,7 @@ self.addEventListener("fetch", event => {
             )
         );
     } else {
+        console.log("not in scope: ", event.request.url);
         event.respondWith(
             fetch(event.request).catch(err =>
                 caches.match(event.request).then(response => response)
