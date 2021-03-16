@@ -9,7 +9,7 @@
       link: pages/language.html
 - name: พระราชกิจ
   link: pages/royalDuties.html
-    dropdown:
+  dropdown:
     - name: พระราชกรณียกิจที่ทรงสืบสานฯ
       link: pages/royalDutiesAssigned.html
     - name: พระราชกรณียกิจในด้านการพัฒนา
