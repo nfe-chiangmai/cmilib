@@ -23,6 +23,10 @@ const assets = [
   "/princessLibraryProject/pages/hobbies.html",
   "/princessLibraryProject/pages/language.html",
   "/princessLibraryProject/pages/royalDuties.html",
+  "/princessLibraryProject/pages/royalDutiesAssigned.html",
+  "/princessLibraryProject/pages/royalDutiesDevelopment.html",
+  "/princessLibraryProject/pages/royalDutiesEducation.html",
+  "/princessLibraryProject/pages/royalDutiesForeignVisits.html",
   "/princessLibraryProject/pages/royalInitiatives.html",
   "/princessLibraryProject/pages/writings.html"
 ];

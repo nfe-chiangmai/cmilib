@@ -9,6 +9,15 @@
       link: pages/language.html
 - name: พระราชกิจ
   link: pages/royalDuties.html
+    dropdown:
+    - name: พระราชกรณียกิจที่ทรงสืบสานฯ
+      link: pages/royalDutiesAssigned.html
+    - name: พระราชกรณียกิจในด้านการพัฒนา
+      link: pages/royalDutiesDevelopment.html
+    - name: พระราชกรณียกิจในด้านการศึกษา
+      link: pages/royalDutiesEducation.html
+    - name: พระราชกิจเสด็จเยือนต่างประเทศ
+      link: pages/royalDutiesForeignVisits.html
 - name: โครงการตามพระราชดำริ
   link: pages/royalInitiatives.html
 - name: งานเขียน
