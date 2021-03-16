@@ -6,7 +6,7 @@ title: ประวัติ
 <br>
 <br>
 
-![2019_B_01](C:\Github Projects\assets\images\id1982_somdejprathep.jpg)
+![2019_B_01](/princessLibraryProject/assets/images/id1982_somdejprathep.jpg)
 <br>
 <br>
 
