@@ -1,0 +1,9 @@
+<a class="button is-warning pb-2" id="menu-button">{{ include.label }}</a>
+<script>
+  function showMenu() {
+    document.getElementById('navMenu').classList.add('is-active');
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('menu-button').addEventListener('click', showMenu);
+  });
+</script>
