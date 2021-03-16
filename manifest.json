@@ -2,7 +2,7 @@
   "name": "Princess Library Project",
   "short_name": "PLP",
   "theme_color": "#6c0070",
-  "background_color": "#cccccc",
+  "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/princessLibraryProject/",
