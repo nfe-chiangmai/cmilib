@@ -1,15 +1,15 @@
-- name: Biography
+- name: ประวัติ
   link: pages/biography.html
   dropdown:
-    - name: Education
+    - name: การศึกษา
       link: pages/education.html
-    - name: Hobbies
+    - name: งานอดิเรก
       link: pages/hobbies.html
-    - name: Language
+    - name: ภาษา
       link: pages/language.html
-- name: Royal Duties
+- name: พระราชกิจ
   link: pages/royalDuties.html
-- name: Royal Initiatives
+- name: โครงการตามพระราชดำริ
   link: pages/royalInitiatives.html
-- name: Writings
+- name: งานเขียน
   link: pages/writings.html
