@@ -3,7 +3,7 @@ title: การศึกษา
 ---
 
 <img-div>
-    <img src="http://www.sirindhorn.net/images/School72Pic4.jpg" alt="Pic4">
+    <img src="princessLibraryProject/assets/images/School72Pic4.jpg" alt="Pic4">
 </img-div>
 
 -ตุลาคม พ.ศ.2501 ระดับ โรงเรียนจิตรลดา อนุบาล 1-2 2 วันเริ่มต้นการศึกษา
