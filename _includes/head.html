@@ -14,6 +14,25 @@
     <link rel="shortcut icon" type="image/png"
           {% if site.favicon %} href="{{ site.favicon | relative_url }}" {% else %} href="{{ site.baseurl }}/favicon.png" {% endif %}
     />
+    
+    <script type="text/javascript" src="princessLibraryProject/assets/add-to-homescreen/src/addtohomescreen.js"></script>
+    <link rel="stylesheet" type="text/css" href="princessLibraryProject/assets/add-to-homescreen/style/addtohomescreen.css">
+    <script>
+    // Detects if device is on iOS 
+    const isIos = () => {
+      const userAgent = window.navigator.userAgent.toLowerCase();
+      return /iphone|ipad|ipod/.test( userAgent );
+    }
+    // Detects if device is in standalone mode
+    const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+    // Checks if should display install popup notification:
+    if (isIos() && !isInStandaloneMode()) {
+      // call our library here
+      addToHomescreen();
+      // this.setState({ showInstallMessage: true });
+    }
+    </script>
+    
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
     {% unless site.hide_share_buttons %}
