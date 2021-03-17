@@ -550,6 +550,7 @@ ath.Class.prototype = {
 
 		// attach all elements to the DOM
 		this.viewport.appendChild(this.element);
+		this.container = document.body;
 		this.container.appendChild(this.viewport);
 
 		// if we don't have to wait for an image to load, show the message right away
