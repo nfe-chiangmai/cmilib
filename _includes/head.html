@@ -8,15 +8,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#6c0070">
 
-    <link rel="manifest" href="/princessLibraryProject/manifest.json">
+    <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
     <link rel="shortcut icon" type="image/png"
           {% if site.favicon %} href="{{ site.favicon | relative_url }}" {% else %} href="{{ site.baseurl }}/favicon.png" {% endif %}
     />
     
-    <script type="text/javascript" src="princessLibraryProject/assets/add-to-homescreen/src/addtohomescreen.js"></script>
-    <link rel="stylesheet" type="text/css" href="princessLibraryProject/assets/add-to-homescreen/style/addtohomescreen.css">
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/add-to-homescreen/src/addtohomescreen.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/add-to-homescreen/style/addtohomescreen.css">
     <script>
     // Detects if device is on iOS 
     const isIos = () => {
