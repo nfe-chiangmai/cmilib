@@ -14,7 +14,7 @@ title: งานอดิเรก
 <br>
 <br>
 
-![558000012605401]({{ site.baseurl }}/assets/images/558000012605401.JPEG)
+![558000012605401]({{ site.baseurl }}/assets/images/558000012605401.webp)
 <br>
 <br>
 
