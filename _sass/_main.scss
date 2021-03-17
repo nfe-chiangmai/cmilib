@@ -3,7 +3,6 @@
 
 $family-sans-serif: 'Montserrat', sans-serif;
 $primary: #6c0070 !default; //Theme Color
-$background: #BB82CF !default; // required by product owner
 
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
@@ -20,4 +19,8 @@ $hero-darken: $dark !default;
 
 .gh-sponsor {
   color: #ea4aaa;
+}
+
+.footer {
+  background-color: #BB82CF !default; // required by product owner
 }
