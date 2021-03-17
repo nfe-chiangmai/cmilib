@@ -2,7 +2,7 @@
 title: การศึกษา
 ---
 
-![995546-img.s4lf3w.0](https://us-fbcloud.net/wb/data/995/995546-img.s4lf3w.0.jpg)
+![995546-img.s4lf3w.0]({{ site.baseurl }}/assets/images/995546-img.s4lf3w.0.jpg)
 
 <br>
 <br>
