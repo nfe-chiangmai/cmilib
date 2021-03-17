@@ -2,7 +2,7 @@
 title: งานอดิเรก
 ---
 
-![music008-794x493](https://www.sac.or.th/exhibition/princess/wp-content/uploads/2012/10/music008-794x493.jpg)
+![music008-794x493]({{ site.baseurl }}/assets/images/music008-794x493.jpg)
 <br>
 <br>
 <p>สมเด็จพระเทพรัตนราชสุดา ฯ สยามบรมราชกุมารี ทรงปฏิบัติพระราชกรณียกิจในด้านต่าง ๆ มาโดยตลอด ทั้งการทรงงานของพระองค์เอง และการทรงปฏิบัติพระราชกรณียกิจที่ทรงได้รับมอบหมายจากพระบาทสมเด็จพระเจ้าอยู่หัว และสมเด็จพระนางเจ้าฯ พระบรมราชินีนาถ แม้จะมีพระราชภารกิจค่อนข้างมาก ยามที่ทรงว่างหรือภายหลังการทรงงาน ทรงพักพระอิริยาบถด้วยการทรงงานอดิเรกที่โปรด ซึ่งมีอยู่หลากหลายประเภท</p>
@@ -14,7 +14,7 @@ title: งานอดิเรก
 <br>
 <br>
 
-![558000012605401](https://mpics.mgronline.com/pics/Images/558000012605401.JPEG)
+![558000012605401]({{ site.baseurl }}/assets/images/558000012605401.JPEG)
 <br>
 <br>
 
@@ -26,7 +26,7 @@ title: งานอดิเรก
 <br>
 <br>
 
-![%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5-1](https://www.silpa-mag.com/wp-content/uploads/2020/11/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5-1.jpg)
+![%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5-1]({{ site.baseurl }}/assets/images/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5-1.jpg)
 <br>
 <br>
 
@@ -38,7 +38,7 @@ title: งานอดิเรก
 <br>
 <br>
 
-![tnews_1486450298_3727](https://img.tnews.co.th/large/tnews_1486450298_3727.jpg)
+![tnews_1486450298_3727]({{ site.baseurl }}/assets/images/tnews_1486450298_3727.jpg)
 <br>
 <br>
 
@@ -50,7 +50,7 @@ title: งานอดิเรก
 <br>
 <br>
 
-![5060](https://img.tnews.co.th/userfiles/images/5060.jpg)
+![5060]({{ site.baseurl }}/assets/images/5060.jpg)
 <br>
 <br>
 
@@ -62,7 +62,7 @@ title: งานอดิเรก
 <br>
 <br>
 
-![tnews_1558969445_182](https://img.tnews.co.th/large/tnews_1558969445_182.jpg)
+![tnews_1558969445_182]({{ site.baseurl }}/assets/images/tnews_1558969445_182.jpg)
 <br>
 <br>
 
