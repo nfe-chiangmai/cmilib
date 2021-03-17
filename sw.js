@@ -28,7 +28,6 @@ const assets = [
   "/princessLibraryProject/assets/images/20200309112122.jpg",
   "/princessLibraryProject/assets/images/558000012605401.webp",
   "/princessLibraryProject/assets/images/book1.jpg",
-  "/princessLibraryProject/assets/images/id1982_somdejprathep.jpg",
   "/princessLibraryProject/assets/images/music008-794x493.jpg",
   "/princessLibraryProject/assets/images/n20150127175057_29087.jpg",
   "/princessLibraryProject/assets/images/S__9429047.jpg",
