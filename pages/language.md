@@ -2,7 +2,7 @@
 title: ภาษา
 ---
 
-![lang](https://a5ec4255-a-62cb3a1a-s-sites.googlegroups.com/site/gubas4130506255636/news/anotherpost/45352453.jpg?attachauth=ANoY7cqCXFopKudX9OJKOy3OPxM2WIguKXpbI6UOVRDn-ufbimID0CTmlidIO-cOlie78oaHFX430BLVCFHQKC0CZ8xOqBhyOYzRwgn3ZMF1T3yOFlPjCGu4Qk7iTeaellpZxK4ZU3KUb3aKc7OHVN6EDszMryVz8X5Ttp6hh2fVjevsJG4Pannf49vxlp1nehzQ6W61XRQwddJnwAyasjiKZGd1DzL__xCZ8MJfVwobPHA8sZNjAGBsfjq47vbznAgr3bGFwJSv&attredirects=0)
+![lang]({{ site.baseurl }}/assets/images/45352453.jpg)
 <br>
 <br>
 
