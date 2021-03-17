@@ -6,7 +6,7 @@ title: ประวัติ
 <br>
 <br>
 
-![2id1982_somdejprathep](https://www.lib.ru.ac.th/miscell2/wp-content/uploads/2005/07/id1982_somdejprathep.jpg)
+![2id1982_somdejprathep](/princessLibraryProject/assets/images/id1982_somdejprathep.jpg)
 <br>
 <br>
 
@@ -17,7 +17,7 @@ title: ประวัติ
 <br>
 <br>
 
-![901918-img.rdkx3c.1](https://us-fbcloud.net/wb/data/901/901918-img.rdkx3c.1.jpg)
+![901918-img.rdkx3c.1](/princessLibraryProject/assets/images/901918-img.rdkx3c.1.jpg)
 <br>
 <br>
 
@@ -27,7 +27,7 @@ title: ประวัติ
 <br>
 <br>
 
-![thumb](https://www.ccfthai.or.th/uploads/content/2018/06/130/thumb.jpg)
+![thumb](/princessLibraryProject/assets/images/thumb.jpg)
 <br>
 <br>
 
@@ -36,7 +36,7 @@ title: ประวัติ
 <br>
 <br>
 
-![S__9429047](https://www.matichon.co.th/wp-content/uploads/2018/11/S__9429047.jpg)
+![S__9429047](/princessLibraryProject/assets/images/S__9429047.jpg)
 <br>
 <br>
 
@@ -44,7 +44,7 @@ title: ประวัติ
 <br>
 <br>
 
-![n20150127175057_29087](https://pr.prd.go.th/kanchanaburi/images/article/news1736/n20150127175057_29087.jpg)
+![n20150127175057_29087](/princessLibraryProject/assets/images/n20150127175057_29087.jpg)
 <br>
 <br>
 
