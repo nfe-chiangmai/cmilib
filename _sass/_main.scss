@@ -24,3 +24,11 @@ $hero-darken: $dark !default;
 .navbar-link:not(.is-arrowless)::after {
   border-color: rgba(0,0,0,0.6);
 }
+
+.hero.is-primary .title {
+  color: #e1b93c;
+  background: -webkit-linear-gradient(#e1b93c, #fdf79d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.9));
+}
