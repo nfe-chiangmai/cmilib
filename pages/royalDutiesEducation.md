@@ -2,7 +2,7 @@
 title: ด้านการศึกษา
 ---
 
-![2-1](https://bcom2015.files.wordpress.com/2015/05/2-1.jpg)
+![2_301.jpg]({{ site.baseurl }}/assets/images/2_301.jpg)
 <br>
 <br>
 
