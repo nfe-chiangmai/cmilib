@@ -2,8 +2,7 @@
 title: พระราชกิจ
 ---
 
-![2_1.jpg]({{ site.baseurl }}/assets/images/2_1.jpg)
-<br>
+{% include frame.html file="2_1.jpg" %}
 <br>
 
 <p>ภาพสมเด็จพระเทพรัตนราชสุดาฯสยามบรมราชกุมารีตามเสด็จพระราชดำเนินพระบาทสมเด็จ
