@@ -121,13 +121,13 @@ iframe.video {
     transform: translateX(50vw) translateY(-30vh) scale(0.51);
   }
 }
-.firefly:nth-child(1) {
+.firefly:nth-child(2) {
   animation-name: move2;
 }
-.firefly:nth-child(1)::before {
+.firefly:nth-child(2)::before {
   animation-duration: 17s;
 }
-.firefly:nth-child(1)::after {
+.firefly:nth-child(2)::after {
   animation-duration: 17s, 7779ms;
   animation-delay: 0ms, 5580ms;
 }
