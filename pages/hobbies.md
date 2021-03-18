@@ -2,7 +2,11 @@
 title: งานอดิเรก
 ---
 
-<div class="frame">![RC01.gif]({{ site.baseurl }}/assets/images/RC01.gif)</div>
+<div class="frame">
+
+![RC01.gif]({{ site.baseurl }}/assets/images/RC01.gif)
+
+</div>
 <br>
 <br>
 
