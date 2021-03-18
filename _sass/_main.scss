@@ -3,6 +3,7 @@
 
 $family-sans-serif: 'Montserrat', sans-serif;
 $primary: #634583 !default; //Theme Color
+$background: #BB82CF;
 
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
@@ -16,6 +17,10 @@ $hero-darken: $dark !default;
 @import "syntax";
 @import "showcase";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
+
+body {
+  color: #363636;
+}
 
 .gh-sponsor {
   color: #ea4aaa;
