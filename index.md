@@ -2,7 +2,7 @@
 layout: landing
 hero_height: is-large
 ---
-![](/assets/images/queen-landing.png)
+![]({{ site.baseurl }}/assets/images/queen-landing.png)
 <p class='title'>2 เมษายน 2564</p>
 
 {% include menuButton.html label='เข้าสู่หน้าแรก' %}
@@ -10,7 +10,7 @@ hero_height: is-large
 <nav class='level mt-4'>
   <div class='level-left'>
     <div class='level-item'>
-      <img src='{{ site.baseurl }}/assets/images/library-small.png'/>
+      <img width="40" height="40" src='{{ site.baseurl }}/assets/images/library-small.png'/>
     </div>
   </div>
   <div class='level-right'>
