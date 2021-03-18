@@ -58,9 +58,9 @@ ath.intl = {
 		android: 'Για να προσθέσετε την εφαρμογή στην αρχική οθόνη, ανοίξτε τις επιλογές του browser σας και πατήστε το <strong>Προσθήκη στην αρχική οθόνη</strong>. <small>Μπορείτε να έχετε πρόσβαση στο μενού, πατώντας το κουμπί του μενού του κινητού σας ή το πάνω δεξιά κουμπί του μενού %icon.</small>'
 	},
 
-	en_us: {
-		ios: 'To add this web app to the home screen: tap %icon and then <strong>Add to Home Screen</strong>.',
-		android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>'
+	th: {
+		ios: 'เพิ่มเว็บไซต์นี้ไปยังโฮม: แตะ %icon และจากนั้น <strong>เพิ่มไปยังหน้าต่างโฮม</strong>.',
+		android: 'เพิ่มเว็บไซต์นี้ไปยังหน้าต่างโฮม เปิดเบราว์เซอร์ออฟชั่นเมนู และแตะที่<strong>เพิ่มไปยังหน้าต่างโฮม</strong>. <small>เมนูสามารถถูกเข้าถึงโดยการกดที่ปุ่มเมนูที่อุปกรณ์ (ถ้ามี) หรือ แตะที่ไอคอนเมนูทางด้านบนขวา %icon.</small>'
 	},
 
 	es_es: {
@@ -204,7 +204,7 @@ _extend(ath, {
 });
 
 // falls back to en_us if language is unsupported
-ath.language = ath.language && ath.language in ath.intl ? ath.language : 'en_us';
+ath.language = 'th';
 
 ath.isMobileSafari = ath.isIDevice && _ua.indexOf('Safari') > -1 && _ua.indexOf('CriOS') < 0;
 ath.OS = ath.isIDevice ? 'ios' : ath.isMobileChrome ? 'android' : ath.isMobileIE ? 'windows' : 'unsupported';
