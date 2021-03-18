@@ -2,8 +2,7 @@
 title: การศึกษา
 ---
 
-![1_101.jpg]({{ site.baseurl }}/assets/images/1_101.jpg)
-<br>
+{% include frame.html file="1_101.jpg" %}
 <br>
 
 <p><ul><li>ตุลาคม พ.ศ.2501 ระดับ โรงเรียนจิตรลดา อนุบาล 1-2 2 วันเริ่มต้นการศึกษา</li></ul>

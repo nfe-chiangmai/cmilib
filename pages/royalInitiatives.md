@@ -6,8 +6,7 @@ title: โครงการตามพระราชดำริ
 <br>
 <br>
 
-![3_1.jpg]({{ site.baseurl }}/assets/images/3_1.jpg)
-<br>
+{% include frame.html file="3_1.jpg" %}
 <br>
 
 **ประเภท:** การพัฒนาเด็กและเยาวชนในถิ่นทุรกันดาร
@@ -22,8 +21,7 @@ title: โครงการตามพระราชดำริ
 <br>
 <br>
 
-![3_2.jpg]({{ site.baseurl }}/assets/images/3_2.jpg)
-<br>
+{% include frame.html file="3_2.jpg" %}
 <br>
 
 **ประเภท:** การพัฒนาพื้นที่เฉพาะ
@@ -38,8 +36,7 @@ title: โครงการตามพระราชดำริ
 <br>
 <br>
 
-![3_3.jpg]({{ site.baseurl }}/assets/images/3_3.jpg)
-<br>
+{% include frame.html file="3_3.jpg" %}
 <br>
 
 **ประเภท:** การพัฒนาเด็กและเยาวชนในถิ่นทุรกันดาร
@@ -54,8 +51,7 @@ title: โครงการตามพระราชดำริ
 <br>
 <br>
 
-![3_4.jpg]({{ site.baseurl }}/assets/images/3_4.jpg)
-<br>
+{% include frame.html file="3_4.jpg" %}
 <br>
 
 **ประเภท:** การพัฒนาเด็กและเยาวชนในถิ่นทุรกันดาร
@@ -70,8 +66,7 @@ title: โครงการตามพระราชดำริ
 <br>
 <br>
 
-![3_5.jpg]({{ site.baseurl }}/assets/images/3_5.jpg)
-<br>
+{% include frame.html file="3_5.jpg" %}
 <br>
 
 **ประเภท:** การพัฒนาพื้นที่เฉพาะ
