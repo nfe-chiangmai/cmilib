@@ -33,7 +33,11 @@
                 <span aria-hidden="true"></span>
               </a>
             </div>
-            <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div
+              class="navbar-menu"
+              id="navMenu"
+              :class="{ 'is-active': openNav }"
+            >
               <div class="navbar-start">
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
@@ -42,7 +46,7 @@
                   <a href="{{ item.link | relative_url }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">
                     {{ item.name }}
                   </a>
-                  <div class="navbar-dropdown has-background-primary">
+                  <div class="navbar-dropdown">
                     {% for subitem in item.dropdown %}
                     <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">
                       {{ subitem.name }}
