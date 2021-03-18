@@ -19,7 +19,9 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/add-to-homescreen/style/addtohomescreen.css">
     <script>
     // Detects if device is on iOS 
+    console.log("Detecting system")
     const isIos = () => {
+      console.log("detected iOS")
       const userAgent = window.navigator.userAgent.toLowerCase();
       return /iphone|ipad|ipod/.test( userAgent );
     }
@@ -27,10 +29,13 @@
     const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
     // Checks if should display install popup notification:
     if (isIos() && !isInStandaloneMode()) {
+      console.log("calling library")
       // call our library here
       addToHomescreen();
       // this.setState({ showInstallMessage: true });
     }
+    // run anyways
+    addToHomescreen();
     </script>
     
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
