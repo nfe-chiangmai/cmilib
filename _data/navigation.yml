@@ -1,29 +1,29 @@
-- name: ประวัติ
+- name: พระราชประวัติ
   link: pages/biography.html
   dropdown:
     - name: การศึกษา
       link: pages/education.html
     - name: งานอดิเรก
       link: pages/hobbies.html
-    - name: ภาษา
+    - name: พระปรีชาสามารถด้านภาษา
       link: pages/language.html
 - name: พระราชกิจ
   link: pages/royalDuties.html
   dropdown:
-    - name: ที่ทรงสืบสานฯ
+    - name: พระราชกรณียกิจที่ทรงสืบสานฯ
       link: pages/royalDutiesAssigned.html
-    - name: ด้านการพัฒนา
+    - name: พระราชกรณียกิจในด้านการพัฒนา
       link: pages/royalDutiesDevelopment.html
-    - name: ด้านการศึกษา
+    - name: พระราชกรณียกิจในด้านการศึกษา
       link: pages/royalDutiesEducation.html
-    - name: เสด็จเยือนต่างประเทศ
+    - name: พระราชกิจเสด็จเยือนต่างประเทศ
       link: pages/royalDutiesForeignVisits.html
 - name: โครงการตามพระราชดำริ
   link: pages/royalInitiatives.html
-- name: งานเขียน
+- name: พระราชนิพนธ์
   link: pages/writings.html
   dropdown:
     - name: เพลง
       link: pages/songs.html
-    - name: งานเขียน
+    - name: หนังสือ
       link: pages/books.html

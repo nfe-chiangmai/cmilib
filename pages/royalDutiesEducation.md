@@ -1,5 +1,5 @@
 ---
-title: ด้านการศึกษา
+title: พระราชกรณียกิจในด้านการศึกษา
 ---
 
 ![2_301.jpg]({{ site.baseurl }}/assets/images/2_301.jpg)

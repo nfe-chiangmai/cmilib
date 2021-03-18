@@ -1,5 +1,5 @@
 ---
-title: ด้านการพัฒนา
+title: พระราชกรณียกิจในด้านการพัฒนา
 ---
 
 ![2_201.jpg]({{ site.baseurl }}/assets/images/2_201.jpg)
