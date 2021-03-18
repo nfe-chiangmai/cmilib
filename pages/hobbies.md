@@ -2,11 +2,7 @@
 title: งานอดิเรก
 ---
 
-<div class="frame test">
-
 ![RC01.gif]({{ site.baseurl }}/assets/images/RC01.gif)
-
-</div>
 <br>
 <br>
 
