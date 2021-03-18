@@ -5,11 +5,11 @@
   </div>
   <div class="card-content">
     <div class="content">
-      <p class='title' style="color:rgb(255, 0, 0)"> {{ book.title }} </p>
-      <h2 style="background-color:rgb(75, 75, 75)">เนื้อหาโดยสังเขป</h2>
+      <h2 class='title' style="color:rgb(255, 0, 0)"> {{ book.title }} </h2>
+      <h3 style="background-color:rgb(150, 150, 150)">เนื้อหาโดยสังเขป</h3>
       <p>{{ book.detail }}</p>
       {% if book.extra %}
-      <h2 style="background-color:rgb(75, 75, 75)">ข้อมูลเพิ่มเติม</h2>
+      <h3 style="background-color:rgb(150, 150, 150)">ข้อมูลเพิ่มเติม</h3>
       {{ book.extra }}
       {% endif %}
     </div>
