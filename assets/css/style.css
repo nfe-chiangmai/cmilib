@@ -3,8 +3,6 @@ iframe.video {
   height: calc((100vw - 40px) / (16/9));
 }
 
-
-// home screen fireflies
 .firefly {
   position: fixed;
   left: 50%;
