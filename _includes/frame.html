@@ -1,3 +1,14 @@
-<div class="frame">
-    {% include image-modal.html link="{{ site.baseurl }}/assets/images/{{ include.file }}" alt="{{ include.file }}" large_link="{{ site.baseurl }}/assets/images/{{ include.file }}" %}
+<div x-data="{ open: false }">
+    <a @click="open = true" title="View large image">
+        <figure class="frame" class="image">
+            <img src="{{ site.baseurl }}/assets/images/{{ include.file }}" alt="{{ include.file }}">
+        </figure>
+    </a>
+    <div class="modal" :class="{ 'is-active': open }">
+        <div class="modal-background" @click="open = false"></div>
+        <div class="modal-content">
+                <img src="{{ site.baseurl }}/assets/images/{{ include.file }}" alt="{{ include.file }}">
+        </div>
+        <button class="modal-close is-large" aria-label="close" @click="{ open = false }"></button>
+    </div>
 </div>
