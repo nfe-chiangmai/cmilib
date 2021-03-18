@@ -1,5 +1,4 @@
-{% if include.file %}
+{::options parse_block_html="true" /}
 <div class="frame">
     {% include image-modal.html link="{{ site.baseurl }}/assets/images/{{ include.file }}" alt="{{ include.file }}" %}{% endcapture %}
 </div>
-{% endif %}
