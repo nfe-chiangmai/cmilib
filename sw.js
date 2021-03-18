@@ -17,7 +17,7 @@ const assets = [
   "https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
   "/princessLibraryProject/assets/css/app.css",
   "/princessLibraryProject/assets/images/background_tile.png",
-  "/princessLibraryProject/assets/images/favicon.png",
+  "/princessLibraryProject/favicon.png",
   "/princessLibraryProject/assets/images/icons-512.png",
   "/princessLibraryProject/assets/images/library-small.png",
   "/princessLibraryProject/assets/images/queen-landing.png",
