@@ -1,5 +1,5 @@
 ---
-title: ประวัติ
+title: พระราชประวัติ
 ---
 
 ![1_1.jpg]({{ site.baseurl }}/assets/images/1_1.jpg)![1_2.jpg]({{ site.baseurl }}/assets/images/1_2.jpg)

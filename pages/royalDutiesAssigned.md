@@ -1,5 +1,5 @@
 ---
-title: ทรงสืบสานฯ
+title: พระราชกรณียกิจที่ทรงสืบสานฯ
 ---
 
 ![2_101.jpg]({{ site.baseurl }}/assets/images/2_101.jpg)

@@ -1,5 +1,5 @@
 ---
-title: ภาษา
+title: พระปรีชาสามารถด้านภาษา
 ---
 
 ![1_301.jpg]({{ site.baseurl }}/assets/images/1_301.jpg)![1_302.jpg]({{ site.baseurl }}/assets/images/1_302.jpg)
