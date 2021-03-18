@@ -7,10 +7,10 @@
     <div class="content">
       <h2 class='title' style="color:rgb(255, 0, 0)"> {{ book.title }} </h2>
       <h3 class="HighlightText-ColorGray">เนื้อหาโดยสังเขป</h3>
-      <p>{{ book.detail }}</p>
+      <p>&emsp;{{ book.detail }}</p>
       {% if book.extra %}
       <h3 class="HighlightText-ColorGray">ข้อมูลเพิ่มเติม</h3>
-      {{ book.extra }}
+      <p></p>&emsp;{{ book.extra }}</p>
       {% endif %}
     </div>
   </div>
