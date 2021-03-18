@@ -60,7 +60,7 @@ const assets = [
   "/princessLibraryProject/assets/images/4_204.jpg",
   "/princessLibraryProject/assets/images/RC01.gif",
   "/princessLibraryProject/pages/biography.html",
-  "/princessLibraryProject/books.html",
+  "/princessLibraryProject/pages/books.html",
   "/princessLibraryProject/pages/education.html",
   "/princessLibraryProject/pages/hobbies.html",
   "/princessLibraryProject/pages/language.html",
