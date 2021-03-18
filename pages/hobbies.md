@@ -2,7 +2,7 @@
 title: งานอดิเรก
 ---
 
-![RC01.gif]({{ site.baseurl }}/assets/images/RC01.gif)
+{% include frame.html file="RC01.gif" %}
 <br>
 <br>
 
