@@ -10,7 +10,7 @@ hero_height: is-large
 <nav class='level mt-4'>
   <div class='level-left'>
     <div class='level-item'>
-      <img width="40" height="40" src='{{ site.baseurl }}/assets/images/library-small.png'/>
+      <img width="120" src='{{ site.baseurl }}/assets/images/library-small.png'/>
     </div>
   </div>
   <div class='level-right'>
