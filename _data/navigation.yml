@@ -18,12 +18,12 @@
       link: pages/royalDutiesEducation.html
     - name: พระราชกิจเสด็จเยือนต่างประเทศ
       link: pages/royalDutiesForeignVisits.html
-- name: โครงการตามพระราชดำริ
+- name: โครงการตามพระราชดำริฯ
   link: pages/royalInitiatives.html
 - name: พระราชนิพนธ์
   link: pages/writings.html
   dropdown:
-    - name: เพลง
+    - name: บทเพลง
       link: pages/songs.html
     - name: หนังสือ
       link: pages/books.html
