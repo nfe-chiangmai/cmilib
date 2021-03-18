@@ -1,7 +1,5 @@
 iframe.video {
-  margin-top: 20px;
-  padding: 0px 20px 0xp 20px;
-  width: 100%;
+  width: 20%;
   height: calc((100vw - 40px) / (16/9));
 }
 
