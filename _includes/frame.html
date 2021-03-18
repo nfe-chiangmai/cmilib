@@ -1,3 +1,5 @@
+{% if include.file %}
 <div class="frame">
-    {% capture modal %}{% include image-modal.html link="{{ site.baseurl }}/assets/images/{{ include.file }}" alt="{{ include.file }}" %}{% endcapture %}
+    {% include image-modal.html link="{{ site.baseurl }}/assets/images/{{ include.file }}" alt="{{ include.file }}" %}{% endcapture %}
 </div>
+{% endif %}
