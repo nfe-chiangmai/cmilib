@@ -4,7 +4,7 @@ iframe.video {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .navbar-menu {
     transition: all .5s ease-in-out;
     top: -700px;
