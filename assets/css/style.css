@@ -28,6 +28,12 @@ iframe.video {
   .hero {
     padding-top: 3.25rem;
   }
+  .navbar.in-hero {
+    position: relative;
+  }
+  .hero.is-fullheight {
+    padding-top: 0;
+  }
 }
 
 .firefly {
