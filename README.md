@@ -18,11 +18,3 @@ bundle exec jekyll serve
     link: /pages/myPage.html
 ```
 Note: the link should always reference the file as `.html` because the `.md` files get converted to `.html` by Jekyll.
-
-### Adding video content
-The following include can be used to add a embed video:
-{% raw %}
-```
-{% include video.html url="https://www.youtube.com/embed/C0DPdy98e4c/" description="this is just an example" %}
-```
-{% endraw %}
