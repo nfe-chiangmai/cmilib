@@ -9,6 +9,10 @@ iframe.video {
   }
 }
 
+.title {
+  line-height: 2;
+}
+
 .firefly {
   position: fixed;
   left: 50%;
