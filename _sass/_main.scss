@@ -93,13 +93,22 @@ html {
   background-color: #BB82CF;
 }
 
-.hero-body p img, .frame, h1.title {
+.hero-body p img, .frame {
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
   -moz-animation: fadeIn ease 3s;
   -o-animation: fadeIn ease 3s;
   -ms-animation: fadeIn ease 3s;
 }
+
+h1.title {
+  animation: fadeIn ease 1.5s;
+  -webkit-animation: fadeIn ease 1.5s;
+  -moz-animation: fadeIn ease 1.5s;
+  -o-animation: fadeIn ease 1.5s;
+  -ms-animation: fadeIn ease 1.5s;
+}
+
 @keyframes fadeIn {
   0% {
     opacity:0;
