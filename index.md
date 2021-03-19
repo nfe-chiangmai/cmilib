@@ -11,6 +11,7 @@ hero_height: is-large
   <div class='level-left'>
     <div class='level-item'>
       <img width="120" src='{{ site.baseurl }}/assets/images/library-small.png'/>
+      <img width="120" src='{{ site.baseurl }}/assets/images/digiserve.png'/>
     </div>
   </div>
   <div class='level-right'>
