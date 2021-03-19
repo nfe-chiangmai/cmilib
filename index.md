@@ -16,6 +16,6 @@ hero_height: is-large
   <div class='level-right'>
     <div class='level-item'>ห้องสมุดประชาชนจังหวัดเชียงใหม่</div>
     <div class='level-item'>ร่วมกับ</div>
-    <div class='level-item'><a>โครงการ Digiserve</a></div>
+    <div class='level-item'>โครงการ DigiServe</div>
   </div>
 </nav>
