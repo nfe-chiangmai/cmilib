@@ -9,6 +9,10 @@ $background: #BB82CF !default;
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
 
+h1 {
+  font-family: 'Charmonman', 'Montserrat', sans-serif !default;
+}
+
 $modal-content-width: 800px;
 
 @import "../node_modules/bulma/bulma.sass";
@@ -18,10 +22,6 @@ $hero-darken: $dark !default;
 @import "syntax";
 @import "showcase";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
-
-h1 {
-  font-family: 'Charmonman', 'Montserrat', sans-serif;
-}
 
 body {
   color: #363636;
