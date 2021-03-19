@@ -21,6 +21,13 @@ iframe.video {
   .navbar-menu.is-active {
     top: 3.25rem;
   }
+  .navbar {
+    position: fixed;
+    width: 100%;
+  }
+  .hero {
+    padding-top: 3.25rem;
+  }
 }
 
 .firefly {
