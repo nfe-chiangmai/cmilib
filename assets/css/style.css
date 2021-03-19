@@ -9,30 +9,6 @@ iframe.video {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  section.section::after {
-      background-image: url(/princessLibraryProject/assets/images/princess_logo_bg.png);
-      background-repeat: no-repeat;
-      background-size: 40%;
-      content: "";
-      position: fixed;
-      top: 123px;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-      opacity: 0.1;
-      right: 10px;
-      display: block;
-      background-position: right;
-  }
-  .container {
-    z-index: 100;
-  }
-  section.hero, .footer {
-    position: relative;
-    z-index: 100;
-  }
-}
 .title {
   line-height: 1.2;
   padding-top: 25px;
