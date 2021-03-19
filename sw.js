@@ -76,7 +76,8 @@ const assets = [
   "/princessLibraryProject/pages/royalDutiesForeignVisits.html",
   "/princessLibraryProject/pages/royalInitiatives.html",
   "/princessLibraryProject/pages/songs.html",
-  "/princessLibraryProject/pages/writings.html"
+  "/princessLibraryProject/pages/writings.html",
+  "/princessLibraryProject/"
 ];
 
 
