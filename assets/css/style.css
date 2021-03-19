@@ -9,33 +9,6 @@ iframe.video {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .navbar-menu {
-    transition: all .5s ease-in-out;
-    top: -700px;
-    position: absolute;
-    width: 100%;
-    display: block;
-  }
- 
-  .navbar-menu.is-active {
-    top: 3.25rem;
-  }
-  .navbar {
-    position: fixed;
-    width: 100%;
-  }
-  .hero {
-    padding-top: 3.25rem;
-  }
-  .navbar.in-hero {
-    position: relative;
-  }
-  .hero.is-fullheight {
-    padding-top: 0;
-  }
-}
-
 .firefly {
   position: fixed;
   left: 50%;
