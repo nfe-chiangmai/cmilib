@@ -3,15 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
 
 $family-sans-serif: 'Montserrat', sans-serif;
+$title-family: 'Charmonman', 'Montserrat', sans-serif;
 $primary: #634583 !default; //Theme Color
 $background: #BB82CF !default;
 
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
-
-body h1 {
-  font-family: 'Charmonman', 'Montserrat', sans-serif;
-}
 
 $modal-content-width: 800px;
 
