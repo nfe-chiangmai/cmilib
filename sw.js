@@ -65,6 +65,7 @@ const assets = [
   "/princessLibraryProject/assets/images/queen-landing.png",
   "/princessLibraryProject/assets/images/RC01.gif",
   "/princessLibraryProject/assets/images/digiserve.png",
+  "/princessLibraryProject/assets/images/princess_logo_bg.png",
   "/princessLibraryProject/pages/biography.html",
   "/princessLibraryProject/pages/books.html",
   "/princessLibraryProject/pages/education.html",
