@@ -3,7 +3,7 @@ layout: landing
 hero_height: is-large
 ---
 ![]({{ site.baseurl }}/assets/images/queen-landing.png)
-<p class='title'>2 เมษายน 2564</p>
+<p class='title'>2 เมษายน วันรักการอ่าน</p>
 
 {% include menuButton.html label='เข้าสู่หน้าแรก' %}
 
@@ -17,6 +17,10 @@ hero_height: is-large
   <div class='level-right'>
     <div class='level-item'>ห้องสมุดประชาชนจังหวัดเชียงใหม่</div>
     <div class='level-item'>ร่วมกับ</div>
+<<<<<<< HEAD
+    <div class='level-item'><a>โครงการ Digiserve<br>ภายใต้มูลนิธิสานสัมพันธ์ครอบครัว</a></div>
+=======
     <div class='level-item'>โครงการ DigiServe</div>
+>>>>>>> main
   </div>
 </nav>
