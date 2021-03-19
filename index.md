@@ -11,11 +11,16 @@ hero_height: is-large
   <div class='level-left'>
     <div class='level-item'>
       <img width="120" src='{{ site.baseurl }}/assets/images/library-small.png'/>
+      <img width="120" src='{{ site.baseurl }}/assets/images/digiserve.png'/>
     </div>
   </div>
   <div class='level-right'>
     <div class='level-item'>ห้องสมุดประชาชนจังหวัดเชียงใหม่</div>
     <div class='level-item'>ร่วมกับ</div>
+<<<<<<< HEAD
     <div class='level-item'><a>โครงการ Digiserve<br>ภายใต้มูลนิธิสานสัมพันธ์ครอบครัว</a></div>
+=======
+    <div class='level-item'>โครงการ DigiServe</div>
+>>>>>>> main
   </div>
 </nav>
