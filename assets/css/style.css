@@ -3,6 +3,18 @@ iframe.video {
   height: calc((100vw - 40px) / (16/9));
 }
 
+.navbar-menu {
+  transition: all .5s ease-in-out;
+  top: -700px;
+  position: absolute;
+  width: 100%;
+  display: block;
+ }
+ 
+.navbar-menu.is-active {
+  top: 3.25rem;
+}
+
 .firefly {
   position: fixed;
   left: 50%;
