@@ -28,6 +28,10 @@ iframe.video {
   .container {
     z-index: 100;
   }
+  section.hero, .footer {
+    position: relative;
+    z-index: 100;
+  }
 }
 .title {
   line-height: 1.2;
