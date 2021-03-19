@@ -13,6 +13,7 @@ const assets = [
   "/princessLibraryProject/assets/js/app.js",
   "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css",
   "https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css",
+  "https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap",
   "https://fonts.googleapis.com/css?family=Montserrat",
   "https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
   "/princessLibraryProject/assets/css/app.css",
