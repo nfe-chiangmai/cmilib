@@ -5,11 +5,11 @@
   "background_color": "#BB82CF",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/princessLibraryProject/",
-  "start_url": "/princessLibraryProject/",
+  "scope": "/cmilib/",
+  "start_url": "/cmilib/",
   "icons": [
     {
-      "src": "/princessLibraryProject/assets/images/icons-512.png",
+      "src": "/cmilib/assets/images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
