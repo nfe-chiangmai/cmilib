@@ -3,6 +3,6 @@
 
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker
-        .register("/princessLibraryProject/sw.js")
+        .register("/cmilib/sw.js")
         .then(() => console.log("registered service worker!"));
 }
